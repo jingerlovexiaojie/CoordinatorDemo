@@ -6,6 +6,7 @@ behavior
 
 
 public class MyBehavior extends CoordinatorLayout.Behavior {
+
     public MyBehavior(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
