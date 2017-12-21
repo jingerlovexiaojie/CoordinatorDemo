@@ -33,7 +33,7 @@ public class MyBehavior extends CoordinatorLayout.Behavior {
 }
 
 
-然后在布局中使用
+布局文件里指定behavior
 布局包括Coordinator + recyclerview
 
 
