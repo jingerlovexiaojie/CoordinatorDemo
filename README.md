@@ -75,3 +75,5 @@ CoordinatorLayout.LayoutParams params = (CoordinatorLayout.LayoutParams) textvie
  MyBehavior myBehavior = new MyBehavior();
  
  params.setBehavior(myBehavior);
+ 
+ ![功能效果](https://github.com/jingerlovexiaojie/CoordinatorDemo/blob/master/app/src/main/res/drawable/behavior.gif)
