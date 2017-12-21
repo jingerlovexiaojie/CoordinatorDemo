@@ -71,5 +71,6 @@ public class MyBehavior extends CoordinatorLayout.Behavior {
 
 
 CoordinatorLayout.LayoutParams params = (CoordinatorLayout.LayoutParams) textview.getLayoutParams();
+
  MyBehavior myBehavior = new MyBehavior();
  params.setBehavior(myBehavior);
