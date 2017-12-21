@@ -29,9 +29,9 @@ public class MyBehavior extends CoordinatorLayout.Behavior {
         }
     }
 }
+
+
 然后在布局中使用
-
-
 布局包括Coordinator + recyclerview
 
 
@@ -41,6 +41,8 @@ public class MyBehavior extends CoordinatorLayout.Behavior {
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.nala.coordinatordemo.CustomViewActivity">
+    
+    
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
