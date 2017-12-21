@@ -26,10 +26,10 @@ public class MyBehavior extends CoordinatorLayout.Behavior {
     @Override
     public void onNestedScroll(@NonNull CoordinatorLayout coordinatorLayout, @NonNull View child, @NonNull View target, int dxConsumed, int dyConsumed, int dxUnconsumed, int dyUnconsumed, int type) {
         super.onNestedScroll(coordinatorLayout, child, target, dxConsumed, dyConsumed, dxUnconsumed, dyUnconsumed, type);
-        if(dyConsumed < 0){
+        if (dyConsumed < 0) {
             //向下滚动
             ViewCompat.animate(child).scaleX(1).scaleY(1).start();
-        }else{
+        } else if(dyConsumed > 0){
             //向上滚动
             ViewCompat.animate(child).scaleX(0).scaleY(0).start();
         }
