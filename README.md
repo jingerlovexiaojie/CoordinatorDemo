@@ -65,3 +65,9 @@ public class MyBehavior extends CoordinatorLayout.Behavior {
         app:layout_behavior="com.example.nala.coordinatordemo.MyBehavior"/>
 
 </android.support.design.widget.CoordinatorLayout>
+
+
+还可以通过代码指定behavior
+CoordinatorLayout.LayoutParams params = (CoordinatorLayout.LayoutParams) textview.getLayoutParams();
+ MyBehavior myBehavior = new MyBehavior();
+ params.setBehavior(myBehavior);
